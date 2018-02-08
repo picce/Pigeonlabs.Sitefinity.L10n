@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pigeonlabs.Sitefinity.L10n</name>
+    </assembly>
+    <members>
+        <member name="T:Pigeonlabs.Sitefinity.L10n">
+            <summary>
+            helper for sitefinity localization
+            ideal for api l10n
+            </summary>
+        </member>
+        <member name="M:Pigeonlabs.Sitefinity.L10n.#ctor(System.String)">
+            <param name="lang">lang could be from Headers?.AcceptLanguage or from qry param</param>
+        </member>
+        <member name="M:Pigeonlabs.Sitefinity.L10n.GetRes(System.String,System.String,System.String)">
+            <summary>
+            wrapper around Telerik.Sitefinity.Localization.Res.TryGet() method
+            </summary>
+        </member>
+        <member name="M:Pigeonlabs.Sitefinity.L10n.DynString(Telerik.Sitefinity.DynamicModules.Model.DynamicContent,System.String,System.String)">
+            <summary>
+            wrapper around Telerik.Sitefinity.Model.DataExtensions.GetString() method
+            </summary>
+        </member>
+    </members>
+</doc>
