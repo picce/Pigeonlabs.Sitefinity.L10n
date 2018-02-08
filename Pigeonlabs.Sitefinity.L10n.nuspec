@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Pigeonlabs.Sitefinity.L10n</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>pigeonlabs</authors>
+    <owners>pigeonlabs</owners>
+    <licenseUrl>https://github.com/picce/Pigeonlabs.Sitefinity.L10n</licenseUrl>
+    <projectUrl>https://github.com/picce/Pigeonlabs.Sitefinity.L10n</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Helper class for sitefinity localization, ideal for api l10n</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2018 - Pigeonlabs</copyright>
+    <tags>sitefinity l10n localization dynamicmodule</tags>
+  </metadata>
+</package>
