@@ -29,7 +29,7 @@ public class MyApiController : ApiController
   {
       var itemModel = new YourItemModel();
       itemModel.Id = dyn.Id.ToString();
-      //retrive value in the right language
+      //retrieve value in the right language
       itemModel.Title = R.DynString(dyn, "Title");      
       itemModel.Abstract = R.DynString(dyn, "Abstract");
       
