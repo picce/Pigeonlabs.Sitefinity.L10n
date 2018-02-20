@@ -53,15 +53,25 @@ namespace Pigeonlabs.Sitefinity
         /// </summary>
         public string DynString(DynamicContent source, string fieldName, string defaultValue = "")
         {
+            var lstring = source.GetString(fieldName);
+            string res = DynString(lstring, defaultValue);
+            return res;
+        }
+
+        /// <summary>
+        /// look inside Lstring object
+        /// </summary>
+        public string DynString(Lstring lstring, string defaultValue = "")
+        {
             string res = "";
 
             //check for right value
-            source.GetString(fieldName).TryGetValue(out res, Culture);
-            
+            lstring.TryGetValue(out res, Culture);
+
             //fallback on first culture available
             if (res == null)
-                source.GetString(fieldName).TryGetValue(out res, CultureDefault);
-            
+                lstring.TryGetValue(out res, CultureDefault);
+
             //fallback on default value
             if (res == null)
                 res = defaultValue;
