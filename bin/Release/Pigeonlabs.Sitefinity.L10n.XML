@@ -23,5 +23,10 @@
             wrapper around Telerik.Sitefinity.Model.DataExtensions.GetString() method
             </summary>
         </member>
+        <member name="M:Pigeonlabs.Sitefinity.L10n.DynString(Telerik.Sitefinity.Model.Lstring,System.String)">
+            <summary>
+            look inside Lstring object
+            </summary>
+        </member>
     </members>
 </doc>

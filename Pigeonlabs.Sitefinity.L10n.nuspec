@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/picce/Pigeonlabs.Sitefinity.L10n</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Helper class for sitefinity localization, ideal for api l10n</description>
-    <releaseNotes>Added xml comments</releaseNotes>
+    <releaseNotes>added overload for Lstring objects</releaseNotes>
     <copyright>Copyright 2018 - PigeonLabs</copyright>
     <tags>sitefinity l10n localization dynamicmodule DynamicContent</tags>
   </metadata>
